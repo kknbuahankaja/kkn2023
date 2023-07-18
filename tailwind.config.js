@@ -5,7 +5,8 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				arsenica: ['ArsenicaTrial', 'sans-serif'],
+				arsenica: ['ArsenicaTrial'],
+				poppins: ['Poppins'],
 			},
 			colors: {
 				primary: '#65AF90',
@@ -15,6 +16,7 @@ module.exports = {
 				'c-green': {
 					100: '#E2EBA2',
 					300: '#A4CD9D',
+					400: '#65AF90',
 					500: '#488B3A',
 				},
 			},
