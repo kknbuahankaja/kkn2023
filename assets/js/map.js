@@ -582,12 +582,40 @@ async function onClickHandler(e) {
 // Marker
 const markerData = [
 	{
-		id: "flower",
-		title: "Northen Fruits Flower Garden",
+		id: "bendungan-sidan",
+		title: "Bendungan Sidan",
 		description:
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae diam consequat, tristique lectus ut, tincidunt erat. Pellentesque nec dignissim mi. Praesent odio quam, dictum non metus non, elementum sodales nunc. Cras faucibus, magna in venenatis molestie, magna purus maximus nulla, non laoreet dui nisl ut leo. Integer nunc metus, cursus ac leo ac, tristique tristique magna. Sed eget convallis ex. Praesent finibus scelerisque urna, at dignissim enim finibus et. Sed sed ante quis purus elementum consectetur. Morbi placerat arcu et tortor euismod, in tempus dolor placerat. Integer nisl neque, ornare at diam ut, fringilla molestie purus.",
 		image: "/assets/images/homepage/spot-4.png",
-		coordinates: [-8.3585919, 115.2474581],
+		coordinates: [-8.318101677541382, 115.24856591492923],
+	},
+	{
+		id: "kebun-jeruk",
+		title: "Kebun Jeruk",
+		description: "Kebun Jeruk",
+		image: "/assets/images/homepage/spot-4.png",
+		coordinates: [-8.331549626669252, 115.25470509330496],
+	},
+	{
+		id: "persawahan",
+		title: "Area Persawahan Hijau",
+		description: "Area Persawahan Hijau",
+		image: "/assets/images/homepage/spot-4.png",
+		coordinates: [-8.338287616195815, 115.25612902466496],
+	},
+	{
+		id: "air-terjun",
+		title: "Air Terjun",
+		description: "Air Terjun",
+		image: "/assets/images/homepage/spot-4.png",
+		coordinates: [-8.350480453928657, 115.25781572731192],
+	},
+	{
+		id: "pura-taman-indrakila",
+		title: "Pura Taman Indrakila",
+		description: "Pura Taman Indrakila",
+		image: "/assets/images/homepage/spot-4.png",
+		coordinates: [-8.38090387328035, 115.23249031583146],
 	},
 ];
 
@@ -611,7 +639,7 @@ markerData.forEach((item, index) => {
 function markerOnClick(e) {
 	var bounds = new L.LatLngBounds();
 	bounds.extend(e.latlng);
-	map.fitBounds(bounds, { maxZoom: 16 });
+	map.fitBounds(bounds, { maxZoom: 15 });
 
 	setPanelData({ data: markerData, id: e.target.options.id });
 }
