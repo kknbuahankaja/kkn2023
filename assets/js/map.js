@@ -560,7 +560,7 @@ const tiles = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
 const jsonData = [];
 
 const geojsonDetail = L.geoJson(geoJsonData, {
-	style: { fillColor: "yellow", color: "green" },
+	style: { fillColor: "#FEB938", color: "#c72230" },
 	onEachFeature: onEachFeature,
 });
 
