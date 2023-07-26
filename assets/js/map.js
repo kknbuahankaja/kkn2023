@@ -585,35 +585,39 @@ const markerData = [
 		id: "bendungan-sidan",
 		title: "Bendungan Sidan",
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae diam consequat, tristique lectus ut, tincidunt erat. Pellentesque nec dignissim mi. Praesent odio quam, dictum non metus non, elementum sodales nunc. Cras faucibus, magna in venenatis molestie, magna purus maximus nulla, non laoreet dui nisl ut leo. Integer nunc metus, cursus ac leo ac, tristique tristique magna. Sed eget convallis ex. Praesent finibus scelerisque urna, at dignissim enim finibus et. Sed sed ante quis purus elementum consectetur. Morbi placerat arcu et tortor euismod, in tempus dolor placerat. Integer nisl neque, ornare at diam ut, fringilla molestie purus.",
+			"Bendungan Sidan merupakan objek wisata alam yang berlokasi di Banjar Pausan, Desa Buahan Kaja, Kecamatan Payangan, Kabupaten Gianyar, Bali. Bendungan ini merupakan bendungan yang baru saja dibangun yang diharapkan dapat dimanfaatkan oleh UMKM masyarakat setempat untuk berjualan aneka makanan dan minuman maupun aksesoris khas bali. Selain itu bendungan ini menawarkan keindahan alam yang cukup indah. Di tempat ini, indra penglihatan pengunjung akan dimanjakan oleh pemandangan puncak-puncak bukit dengan hamparan air yang merefleksikan indahnya langit biru.",
 		image: "/assets/images/homepage/spot-4.png",
 		coordinates: [-8.318101677541382, 115.24856591492923],
 	},
 	{
 		id: "kebun-jeruk",
 		title: "Kebun Jeruk",
-		description: "Kebun Jeruk",
-		image: "/assets/images/homepage/spot-4.png",
+		description:
+			"Kebun jeruk merupakan salah satu komoditas utama yang ada di Desa Buahan Kaja. Sehingga tak heran jika sepanjang jalan terdapat banyak sekali kebun jeruk yang ditanam oleh para warga setempat. Selain dapat dijual secara langsung, tentu warga setempat juga dapat memanfaatkannya sebagai objek wisata baru, seperti wisata memetik jeruk contohnya. Objek wisata memetik buah kerap dijadikan sebagai pelengkap dari adanya paket wisata yang ada. Dengan itu tentu akan menghasilkan penghasilan tambahan bagi warga setempat dan menambah kesejahteraan bersama.",
+		image: "/assets/images/wisata/kebun-jeruk.jpg",
 		coordinates: [-8.331549626669252, 115.25470509330496],
 	},
 	{
 		id: "persawahan",
 		title: "Area Persawahan Hijau",
-		description: "Area Persawahan Hijau",
-		image: "/assets/images/homepage/spot-4.png",
+		description:
+			"Area Persawahan Hijau merupakan salah satu potensi yang dimiliki oleh masyarakat Desa Buahan Kaja. Terdapat banyak sekali area persawahan yang dimiliki oleh masing-masing dari warga setempat. Dengan adanya hamparan persawahan yang hijau, tentu dapat dimanfaatkan okeh warga maupun perangkat desa sebagai objek wisata yang dapat menambah ekonomi masyarakat sekaligus meningkatkan kesejahteraan bersama. Area persawahan hijau dapat dimanfaatkan sebagai objek wisata berfoto, tentunya dengan diselingi oleh tanaman bunga dan juga padi hal itu bisa dijadikan salah satu ide untuk membuat objek wisata baru.",
+		image: "/assets/images/wisata/persawahan.jpg",
 		coordinates: [-8.338287616195815, 115.25612902466496],
 	},
 	{
 		id: "air-terjun",
 		title: "Air Terjun",
-		description: "Air Terjun",
-		image: "/assets/images/homepage/spot-4.png",
+		description:
+			"Desa buahan kaja memiliki salah satu air terjun yang cukup berpotensi untuk dijadikan destinasi wisata baru. Hal itu dikarenakan air terjun tersebut yang cukup indah, namun saat ini untuk menuju air terjun tersebut akses yang dilewati masih terbilang cukup sulit. Dikarenakan pihak perangkat desa yang baru saja ingin merancang perencanaan air terjun tersebut untuk dijadikan destinasi wisata baru yang nantinya dapat membuka lapangan kerja baru bagi para warga serta menaikkan ekonomi setempat.",
+		image: "/assets/images/wisata/air-terjun.jpg",
 		coordinates: [-8.350480453928657, 115.25781572731192],
 	},
 	{
 		id: "pura-taman-indrakila",
 		title: "Pura Taman Indrakila",
-		description: "Pura Taman Indrakila",
+		description:
+			"Pura taman indrakila yang termasuk ke dalam kategori wisata religi ini berlokasi di Banjar Selat, Desa Buahan Kaja, Payangan, Gianyar, Bali. Pura taman indrakila merupakan salah satu pura yang seringkali dijadikan tempat untuk para pendatang atau wisatawan yang ingin belajar atau mengetahui mengenai kerohanian agama hindu maupun sekedar ingin membersihkan diri saja. Baik itu secara fisik maupun rohani. Walaupun lokasi pura yang dapat dikatakan cukup jauh dari pemukiman warga, ditambah lagi dengan dibutuhkannya berjalan kaki sekitar 10 menit dengan jalan tanah yang menurun, tetapi pura ini kerap didatangi oleh pelajar maupun pandita, untuk melakukan panglukatan. Hal tersebut dikarenakan Pura Taman Indrakila yang sudah ada sejak lama sehingga masyarakat sekitar maupun luar sudah mengetahui pura tersebut sekaligus mempercayainya.",
 		image: "/assets/images/homepage/spot-4.png",
 		coordinates: [-8.38090387328035, 115.23249031583146],
 	},
