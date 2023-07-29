@@ -586,7 +586,7 @@ const markerData = [
 		title: "Bendungan Sidan",
 		description:
 			"Bendungan Sidan merupakan objek wisata alam yang berlokasi di Banjar Pausan, Desa Buahan Kaja, Kecamatan Payangan, Kabupaten Gianyar, Bali. Bendungan ini merupakan bendungan yang baru saja dibangun yang diharapkan dapat dimanfaatkan oleh UMKM masyarakat setempat untuk berjualan aneka makanan dan minuman maupun aksesoris khas bali. Selain itu bendungan ini menawarkan keindahan alam yang cukup indah. Di tempat ini, indra penglihatan pengunjung akan dimanjakan oleh pemandangan puncak-puncak bukit dengan hamparan air yang merefleksikan indahnya langit biru.",
-		image: "/assets/images/homepage/spot-4.png",
+		image: "/assets/images/wisata/bendungan-sidan.webp",
 		coordinates: [-8.318101677541382, 115.24856591492923],
 	},
 	{
