@@ -21,7 +21,7 @@
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	</head>
 
-	<body class="font-poppins">
+	<body class="max-w-screen overflow-x-hidden font-poppins">
 		<header class="fixed left-0 top-0 z-50 w-full bg-transparent text-c-black">
 			<div class="w-full">
 				<nav class="flex flex-col items-center justify-between lg:flex-row">
@@ -87,9 +87,152 @@
 			</div>
 		</header>
 
-		<section class="flex h-screen items-center justify-center">BUMDES</section>
+		<section class="flex min-h-screen flex-col lg:h-screen">
+			<div class="relative flex h-[75vh] items-center justify-center lg:h-2/3">
+				<img
+					src="/assets/images/homepage/spot-2.png"
+					class="absolute left-0 top-0 h-full w-full object-cover"
+				/>
+				<div class="absolute left-0 top-0 h-full w-full bg-c-black/40"></div>
+				<h1 class="z-10 font-arsenica text-6xl font-bold text-c-white" data-aos="zoom-in">BUMDES</h1>
+			</div>
+			<div class="mx-10 flex flex-grow items-center py-10 lg:mx-20 lg:py-0">
+				<p class="text-center text-sm leading-6 lg:text-base lg:leading-8" data-aos="fade-up">
+					Berdasarkan Peraturan Desa Buahan Kaja Nomor … Tahun 2021 tentang Pendirian Badan Usaha Milik Desa
+					Sari Mekar Bhuana Buahan Kaja, BUMDes (Badan Usaha Milik Desa) Sari Mekar Bhuana adalah badan hukum
+					yang didirikan oleh Desa Buahan guna mengelola usaha, memanfaatkan aset, mengembangkan investasi dan
+					produktivitas, menyediakan jasa pelayanan, dan/atau menyediakan jenis usaha lainnya untuk
+					sebesar-besarnya kesejahteraan masyarakat Desa Buahan kaja.
+				</p>
+			</div>
+		</section>
 
-		<footer class="flex-end relative flex h-[30vh] w-full items-end bg-c-white pt-20 lg:h-full">
+		<section class="flex flex-col items-center justify-center gap-5 py-10">
+			<h2 class="font-arsenica text-xl font-semibold lg:text-3xl" data-aos="fade-down">MELAYANI</h2>
+			<div
+				class="grid grid-cols-2 content-center justify-items-center gap-4 px-4 text-sm font-semibold lg:grid-cols-5 lg:px-20 lg:text-base"
+			>
+				<div class="flex flex-col items-center gap-1">
+					<img
+						src="/assets/images/homepage/spot-3.png"
+						class="aspect-square object-cover"
+						data-aos="flip-left"
+					/>
+					<span data-aos="flip-right" class="">Simpan Pinjam</span>
+				</div>
+				<div class="flex flex-col items-center gap-1">
+					<img
+						src="/assets/images/homepage/spot-3.png"
+						class="aspect-square object-cover"
+						data-aos="flip-left"
+					/>
+					<span data-aos="flip-right" class="">Kebutuhan Pertanian</span>
+				</div>
+				<div class="flex flex-col items-center gap-1">
+					<img
+						src="/assets/images/homepage/spot-3.png"
+						class="aspect-square object-cover"
+						data-aos="flip-left"
+					/>
+					<span data-aos="flip-right" class="">Penyewaan Tenda & Kursi</span>
+				</div>
+				<div class="flex flex-col items-center gap-1">
+					<img
+						src="/assets/images/homepage/spot-3.png"
+						class="aspect-square object-cover"
+						data-aos="flip-left"
+					/>
+					<span data-aos="flip-right" class="">Foto Copy </span>
+				</div>
+				<div class="col-span-2 flex flex-col items-center gap-1 px-[25%] lg:col-span-1 lg:px-0">
+					<img
+						src="/assets/images/homepage/spot-3.png"
+						class="aspect-square object-cover"
+						data-aos="flip-left"
+					/>
+					<span data-aos="flip-right" class="">Lain - lain</span>
+				</div>
+			</div>
+		</section>
+
+		<section class="flex justify-center">
+			<div class="flex w-fit flex-col items-center justify-center gap-4 px-4 py-10 lg:flex-row lg:px-0">
+				<div class="flex flex-1 items-center justify-center px-5">
+					<img
+						src="/assets/images/homepage/flower.png"
+						class="aspect-square h-full object-contain"
+						data-aos="flip-up"
+					/>
+				</div>
+				<div class="flex flex-1 flex-col gap-5 leading-7 lg:pr-5">
+					<div class="flex flex-col gap-2" data-aos="fade-right">
+						<h2 class="font-arsenica text-xl font-semibold">VISI</h2>
+						<p>Menjadi BUMDes yang Mandiri dalam ekonomi dan mengembangkan Perekonomian Desa</p>
+					</div>
+					<div class="flex flex-col gap-2" data-aos="fade-right" data-aos-delay="150">
+						<h2 class="font-arsenica text-xl font-semibold">MISI</h2>
+						<p>BUMDses Sari mekar Bhuana  Buahan Kaja adalah sebagai berikut:</p>
+						<ol class="ml-4 list-decimal">
+							<li>Menciptakan lapangan pekerjaan</li>
+							<li>Memberikan pelayanan yang maksimal</li>
+							<li>Menggali potensi desa untuk didayagunakan</li>
+							<li>Membuka pola wirausaha masyarakat</li>
+							<li>Menjadikan BUMDes sebagai wadah perekonomian desa</li>
+							<li>Mengembangkan jaringan kerjasama ekonomi dengan berbagai pihak</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="px-4 py-10 lg:px-20">
+			<div class="rounded-lg border border-c-black/30 px-6 py-4 leading-7" data-aos="fade-up">
+				<h2 class="mb-3 font-arsenica text-xl font-bold">TUJUAN</h2>
+				Pendirian Badan Usaha Milik Desa (BUMDes) Sari Mekar Bhuana adalah:
+				<ol class="ml-4 list-decimal">
+					<li>Meningkatkan perekonomian desa</li>
+					<li>Mengoptimalkan aset desa agar bermanfaat untuk kesejahteraan desa</li>
+					<li>Meningkatkan usaha masyarakat dalam pengelolaan potensi ekonomi desa</li>
+					<li>Mengembangkan rencana kerjasama usaha antar desa dan dengan pihak ketiga</li>
+					<li>Menciptakan peluang dan jaringan pasar yang mendukung kebutuhan layanan untuk warga</li>
+					<li>Membuka lapangan pekerjaan</li>
+					<li>
+						Meningkatkan kesejahteraan masyarakat melalui perbaikan pelayanan umum, pertumbuhan dan
+						pemerataan ekonomi desa
+					</li>
+					<li>Meningkatkan pendapatan masyarakat dan Pendapatan Asli Desa</li>
+					<li>
+						Memberikan kesempatan bagi warga Desa Buahan Kaja untuk mengembangkan usaha yang sudah
+						dimilikinya, atau bahkan menambah unit usaha baru sesuai dengan potensi yang ada di Desa Buahan
+						Kaja dengan bekerja sama dengan BUM Desa atau mendapat bantuan dari BUM Desa Buahan Kaja
+					</li>
+				</ol>
+			</div>
+		</section>
+
+		<section class="mb-20 flex flex-col gap-10 px-10 py-10 lg:h-screen" data-aos="zoom-in">
+			<img src="/assets/images/bumdes/struktur kepengurusan bumdes.png" class="h-full object-contain" />
+		</section>
+
+		<section class="my-20 flex w-full flex-col items-center gap-10 px-4 lg:flex-row lg:px-40">
+			<div class="w-full flex-1" data-aos="flip-left">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15790.327487337121!2d115.254799!3d-8.3442755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2206a05e3c5f9%3A0x69fa4cb6795d99a9!2sBUMDes%20Sari%20Mekar%20Bhuana!5e0!3m2!1sen!2sid!4v1690608648608!5m2!1sen!2sid"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+					class="aspect-square w-full"
+				></iframe>
+			</div>
+			<div class="flex-1" data-aos="fade-right">
+				<h2 class="mb-3 font-arsenica text-xl font-semibold lg:text-3xl">
+					BUMDes Sari mekar Bhuana  Buahan Kaja
+				</h2>
+				<p class="text-sm lg:text-lg">Buahan Kaja, Payangan, Gianyar, Bali 80572, Indonesia</p>
+			</div>
+		</section>
+
+		<footer class="flex-end relative flex h-[30vh] w-full items-end bg-c-white pt-20 lg:h-full" data-aos="fade-up">
 			<div class="absolute bottom-0 left-0 flex w-full flex-col gap-2 px-4 pb-16 lg:gap-3 lg:p-10">
 				<h1 class="text-base font-semibold lg:text-xl">Kembara Payangan</h1>
 				<div class="flex flex-col gap-1 lg:gap-2">
