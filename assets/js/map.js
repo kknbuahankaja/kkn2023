@@ -601,7 +601,7 @@ const markerData = [
 		id: "persawahan",
 		title: "Area Persawahan Hijau",
 		description:
-			"Area Persawahan Hijau merupakan salah satu potensi yang dimiliki oleh masyarakat Desa Buahan Kaja. Terdapat banyak sekali area persawahan yang dimiliki oleh masing-masing dari warga setempat. Dengan adanya hamparan persawahan yang hijau, tentu dapat dimanfaatkan okeh warga maupun perangkat desa sebagai objek wisata yang dapat menambah ekonomi masyarakat sekaligus meningkatkan kesejahteraan bersama. Area persawahan hijau dapat dimanfaatkan sebagai objek wisata berfoto, tentunya dengan diselingi oleh tanaman bunga dan juga padi hal itu bisa dijadikan salah satu ide untuk membuat objek wisata baru.",
+			"Area Persawahan Hijau merupakan salah satu potensi yang dimiliki oleh masyarakat Desa Buahan Kaja. Terdapat banyak sekali area persawahan yang dimiliki oleh masing-masing dari warga setempat. Dengan adanya hamparan persawahan yang hijau, tentu dapat dimanfaatkan oleh warga maupun perangkat desa sebagai objek wisata yang dapat menambah ekonomi masyarakat sekaligus meningkatkan kesejahteraan bersama. Area persawahan hijau dapat dimanfaatkan sebagai objek wisata berfoto, tentunya dengan diselingi oleh tanaman bunga dan juga padi hal itu bisa dijadikan salah satu ide untuk membuat objek wisata baru.",
 		image: "/assets/images/wisata/persawahan.jpg",
 		coordinates: [-8.338287616195815, 115.25612902466496],
 	},
