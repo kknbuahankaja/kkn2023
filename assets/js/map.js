@@ -618,7 +618,7 @@ const markerData = [
 		title: "Pura Taman Indrakila",
 		description:
 			"Pura taman indrakila yang termasuk ke dalam kategori wisata religi ini berlokasi di Banjar Selat, Desa Buahan Kaja, Payangan, Gianyar, Bali. Pura taman indrakila merupakan salah satu pura yang seringkali dijadikan tempat untuk para pendatang atau wisatawan yang ingin belajar atau mengetahui mengenai kerohanian agama hindu maupun sekedar ingin membersihkan diri saja. Baik itu secara fisik maupun rohani. Walaupun lokasi pura yang dapat dikatakan cukup jauh dari pemukiman warga, ditambah lagi dengan dibutuhkannya berjalan kaki sekitar 10 menit dengan jalan tanah yang menurun, tetapi pura ini kerap didatangi oleh pelajar maupun pandita, untuk melakukan panglukatan. Hal tersebut dikarenakan Pura Taman Indrakila yang sudah ada sejak lama sehingga masyarakat sekitar maupun luar sudah mengetahui pura tersebut sekaligus mempercayainya.",
-		image: "/assets/images/homepage/spot-4.png",
+		image: "/assets/images/wisata/pura-taman-indrakila.webp",
 		coordinates: [-8.38090387328035, 115.23249031583146],
 	},
 ];
