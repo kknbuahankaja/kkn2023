@@ -590,6 +590,14 @@ const markerData = [
 		coordinates: [-8.318101677541382, 115.24856591492923],
 	},
 	{
+		id: "pura-pucak-pausan",
+		title: "Pura Pucak Pausan",
+		description:
+			"Pura Pucak Pausan, yang terletak di Banjar Pausan, Desa Buahan Kaja, Kecamatan Payangan, Kabupaten Gianyar, Bali, adalah sebuah tempat suci yang menggabungkan keindahan alam dengan elemen spiritualitas. Terletak di perbukitan hijau Bali, perjalanan menuju pura ini melewati jalan berkelok-kelok yang memikat dengan pemandangan sawah terasering yang menghijau.",
+		image: "/assets/images/wisata/pura-pucak-pausan.jpg",
+		coordinates: [-8.328145868622897, 115.25529710678114],
+	},
+	{
 		id: "kebun-jeruk",
 		title: "Kebun Jeruk",
 		description:
